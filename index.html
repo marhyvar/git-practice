@@ -19,50 +19,54 @@
         <div id="info1" class="block">
             <h2>Configuring Git</h2>
             <p>After installing Git, you should configure at least these: </p>
-            <p><span>$ git config --global user.name "Your Name"</span></p>
-            <p><span>$ git config --global user.email youremailaddress@example.com</span></p>
+            <div class="black">
+                <p>$ git config --global user.name "Your Name"</p>
+                <p>$ git config --global user.email youremailaddress@example.com</p>
+            </div>
             <p>These are included in every Git commit you make.</p>
             <p>If you do not want to use Git's default editor, you
                 should configure your own preferred editor:</p> 
-            <p><span>$ git config --global core.editor editor-of-choice</span></p>
+            <p class="black">$ git config --global core.editor editor-of-choice</p>
             <p>Note, on a Windows system, you need to specify the full path to the executable file of the editor!</p>
             <p>Here's how you can check your settings:</p>
-            <p><span>$ git config --list</span></p>
+            <p class="black">$ git config --list</p>
         </div>
 
         <div id="info2" class="block">
             <h2>Setting up a Git repository</h2>
             <p>Make a directory for your project. Go to your project directory and type:</p>
-            <p><span>$ git init</span></p>
+            <p class="black">$ git init</p>
             <p>This adds a .git subdirectory to your project. You can start building
                 your project or, you can clone an existing Git repository:</p>
-            <p><span>$ git clone https://github.com/example/project</span></p>
+            <p class="black">$ git clone https://github.com/example/project</p>
             <p>Make the cloned repository your remote repository by typing:</p>
-            <p><span>$ git remote add origin https://github.com/example/project</span></p>
+            <p class="black">$ git remote add origin https://github.com/example/project</p>
         </div>
 
         <div id="info3" class="block">
             <h2>Working with Git</h2>
             <p>After making changes you can type:</p>
-            <p><span>$ git status</span></p>
+            <p class="black">$ git status</p>
             <p>This will show you your untracked and modified files. 
                 If you want to include these to the next commit:</p>
-            <p><span>$ git add .</span></p>
+            <p class="black">$ git add . </p>
             <p>After this you can make a commit of the changes you made to the project: </p>
-            <p><span>$ git commit -m "write a good commit message here"</span></p>
+            <p class="black">$ git commit -m "write a good commit message here"</p>
             <p>You can push these changes to the remote repository:</p> 
-            <p><span>$ git push -u origin master</span></p>
+            <p class="black">$ git push -u origin master</p>
             <p>Removing a file:</p>
-            <p><span>$ rm name-of-the-file</span></p>
-            <p><span>$ git rm name-of-the-file</span></p>
-            <p><span>$ git commit -m "remove name-of-the-file"</span></p>
+            <div class="black">
+                <p>$ rm name-of-the-file</p>
+                <p>$ git rm name-of-the-file</p>
+                <p>$ git commit -m "remove name-of-the-file"</p>
+            </div>  
             <p>Discarding changes in the working directory (before git add):</p>
-            <p><span>$ git checkout -- name-of-the-file</span></p>
+            <p class="black">$ git checkout -- name-of-the-file</p>
             <p>Undoing git add (staging)</p>
-            <p><span>$ git reset HEAD file-to-be-unstaged</span></p>
+            <p class="black">$ git reset HEAD file-to-be-unstaged</p>
             <p>If you want to discard changes to a file and return to 
                the file's version in a previous commit:</p> 
-            <p><span>$ git checkout -- filename</span></p>
+            <p class="black">$ git checkout -- filename</p>
         </div>
 </body>
 </html>
