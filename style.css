@@ -2,32 +2,36 @@
 
 body {
     font-family: 'Acme', sans-serif;
-    text-align: center;
-    position: relative;
 }
 
 h1 {
-margin-bottom: 80px;
-font-size: 3em;
+    margin-bottom: 80px;
+    font-size: 3em;
 }
 
 h2 {
-margin-bottom: 20px;
-font-size: 2.5em;
+    margin-bottom: 20px;
+    font-size: 2.5em;
 }
 
 p {
-font-size: 1.5em;
+    font-size: 1.5em;
+}
+
+span {
+    padding: 10px;
+    background-color: black;
+    color: white;
 }
 
 /*------------------ BLOCK */
 .block {
-	position: relative;
 	margin: 0;
 	width: 100%;
-    color: #009933;
-    padding-top: 80px;
-    padding-bottom: 300px;
+    color: white;
+    padding-left: 20%;
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
 
 #intro {
