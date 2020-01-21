@@ -1,5 +1,0 @@
-191f602 - M. Hyvarinen, 7 minutes ago : add course code to README.md
-85468ab - M. Hyvarinen, 11 minutes ago : add info2 & info3 for index.html
-8b68ec8 - M. Hyvarinen, 82 minutes ago : add content for info1 section
-b6e6b8c - M. Hyvarinen, 2 hours ago : add index.html
-e284ebf - M. Hyvarinen, 5 hours ago : initial commit
