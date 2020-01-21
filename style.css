@@ -24,6 +24,31 @@ span {
     color: white;
 }
 
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    font-size: 1.5em;
+    padding: 8px;
+    border: 1px dotted white;
+    color: white;
+    text-decoration: none;
+  }
+
+  li a:hover {
+    color: black;
+    background-color: white;
+  }
+
 /*------------------ BLOCK */
 .block {
 	margin: 0;
