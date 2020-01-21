@@ -9,6 +9,7 @@
         <div id="intro">
             <h1>Basic Git commands</h1>
         </div>
+
         <div id="info1">
             <h2>Configuring Git</h2>
             <p>After installing Git, you should configure at least these: </p>
@@ -18,14 +19,45 @@
             <p>If you do not want to use Git's default editor, you
                 should configure your own preferred editor:</p> 
             <p><span>$ git config --global core.editor editor-of-choice</span></p>
+            <p>On a Windows system, you need to specify the full path to the executable file of the editor, for example:</p>
+            <p><span>$ git config --global core.editor 
+                "'C:/Program Files/Notepad++/notepad++.exe' -multiInst -notabbar -nosession -noPlugin"</span></p>
             <p>Here's how you can check your settings:</p>
             <p><span>$ git config --list</span></p>
         </div>
+
         <div id="info2">
             <h2>Setting up a Git repository</h2>
+            <p>Make a directory for your project. Go to your project directory and type:</p>
+            <p><span>$ git init</span></p>
+            <p>This adds a .git subdirectory to your project. You can start building
+                your project or, you can clone an existing Git repository:</p>
+            <p><span>$ git clone https://github.com/example/project</span></p>
+            <p>Make the cloned repository your remote repository by typing:</p>
+            <p><span>git remote add origin https://github.com/example/project</span></p>
         </div>
+
         <div id="info3">
             <h2>Working with Git</h2>
+            <p>After making changes you can type:</p>
+            <p><span>$ git status</span></p>
+            <p>This will show you your untracked and modified files. 
+                If you want to include these to the next commit:</p>
+            <p><span>$ git add .</span></p>
+            <p>After this you can make a commit of the changes you made to the project: </p>
+            <p><span>$ git -m “A descriptive message commit here”</span></p>
+            <p>You can push these changes to the remote repository:</p> 
+            <p><span>$ git push -u origin master</span></p>
+            <p>Removing a file:</p>
+            <p><span>$ rm name-of-the-file<br>$ git rm name-of-the-file<br>
+                $ git commit -m "remove name-of-the-file"</span></p>
+            <p>Discarding changes in the working directory (before git add):</p>
+            <p><span>$ git checkout -- name-of-the-file</span></p>
+            <p>Undoing git add (staging)</p>
+            <p><span>$ git reset HEAD file-to-be-unstaged</span></p>
+            <p>If you want to discard changes to a file and return to 
+               the file's version in a previous commit:</p> 
+            <p><span>$ git checkout -- filename</span></p>
         </div>
 </body>
 </html>
