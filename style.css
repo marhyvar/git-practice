@@ -30,17 +30,17 @@ font-size: 1.5em;
     padding-bottom: 300px;
 }
 
-.intro {
+#intro {
 	background-color: #ffcc00;
 }
-.info1 {
+#info1 {
 	background-color: #ff5050;
 }
 
-.info2 {
+#info2 {
 	background-color: #ff33cc;
 }
 
-.info3 {
+#info3 {
 	background-color: #9966ff;
 }
