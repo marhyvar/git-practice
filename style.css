@@ -16,7 +16,7 @@ h2 {
 
 p {
     font-size: 1.5em;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 
 .black {
@@ -67,11 +67,14 @@ ul {
     bottom: 10px;
     right: 15px;
     background-color: grey;
-    border: none;
     padding: 8px;
     border: 1px dotted white;
     text-align: center;
     text-decoration: none;
+  }
+
+  .backButton {
+    border: 1px dotted black;
   }
 
   button:hover {
@@ -89,22 +92,22 @@ ul {
 }
 
 #intro {
-	background-color: #ffcc00;
+	background-color: red;
 }
 #info1 {
-	background-color: #ff5050;
+	background-color: orange;
 }
 
 #info2 {
-	background-color: #ff33cc;
+	background-color: yellow;
 }
 
 #info3 {
-	background-color: #9966ff;
+	background-color: #66ff33;
 }
 
 #info4 {
-  background-color: #00eeff;
+  background-color: #0099ff;
 }
 
 /*--------------- MEDIA RULES */
