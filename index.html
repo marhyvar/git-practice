@@ -13,6 +13,7 @@
                 <li><a href="#info1">Configuring Git</a></li>
                 <li><a href="#info2">Setting up a Git repository</a></li>
                 <li><a href="#info3">Working with Git</a></li>
+                <li><a href="#info4">Branching</a></li>
               </ul>
         </div>
 
@@ -64,6 +65,17 @@
             <p class="black">$ git checkout -- name-of-the-file</p>
             <p>Undoing git add (staging)</p>
             <p class="black">$ git reset HEAD file-to-be-unstaged</p>
+        </div>
+        <div id="info4" class="block">
+            <h2>Branching</h2>
+            <p>Create a new branch and immediately switch to this new branch:</p>
+            <p class="black">$ git checkout -b name-of-the-branch</p>
+            <p>Move between branches, for example, move back to master-branch:</p>
+            <p class="black">$ git checkout master</p>
+            <p>When you want to merge new changes to master-branch, checkout to master and type:</p>
+            <p class="black">$ git merge name-of-the-branch</p>
+            <p>If merging was succesfull, you can delete the merged branch:</p>
+            <p class="black">$ git branch -d name-of-the branch</p>
         </div>
         <button><a href="#intro">Go back to top</a></button>
 </body>
