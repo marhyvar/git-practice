@@ -92,10 +92,10 @@ ul {
 }
 
 #intro {
-	background-color: red;
+	background-color: #ff5050;
 }
 #info1 {
-	background-color: orange;
+	background-color: #ff9933;
 }
 
 #info2 {
@@ -103,11 +103,11 @@ ul {
 }
 
 #info3 {
-	background-color: #66ff33;
+	background-color: #ccff66;
 }
 
 #info4 {
-  background-color: #0099ff;
+  background-color: #66ccff;
 }
 
 /*--------------- MEDIA RULES */
