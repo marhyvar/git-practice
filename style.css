@@ -85,10 +85,10 @@ ul {
 .block {
 	margin: 0;
 	width: 100%;
-    color: white;
-    padding-left: 10%;
-    padding-top: 60px;
-    padding-bottom: 60px;
+  color: white;
+  padding-left: 10%;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 #intro {
@@ -108,6 +108,14 @@ ul {
 
 #info4 {
   background-color: #66ccff;
+}
+
+#footer {
+  background-color: #cc3399;
+  margin: 0;
+  width: 100%;
+  height: 50px;
+  color: white;
 }
 
 /*--------------- MEDIA RULES */
